@@ -16,3 +16,5 @@ Steps to generate this JS
    return Latin1.parse(decodeURI(encodeURIComponent(utf8Str)));
 
    or it will meet error in k6
+4, the alternative step for #2
+   browserify node_modules/crypto-js/index.js -s CryptoJS > crypto-js.js
